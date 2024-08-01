@@ -28,7 +28,7 @@
         <div class="hero-content">
             <h1>Reliable Hosting for Your Needs</h1>
             <p>Get the best hosting services for your Discord bots and games.</p>
-            <a class="cta" href="#pricing">Get Started</a>
+            <a class="cta" href="#pricing" id="getStartedBtn">Get Started</a>
         </div>
     </section>
 
@@ -80,5 +80,15 @@
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('getStartedBtn').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.querySelector('#pricing').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>
