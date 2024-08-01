@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #333;
+    background-color: #101010;
 }
 
 .logo a {
@@ -43,11 +43,11 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #f0a500;
+    color: #ff8c00;
 }
 
 .cta {
-    background-color: #f0a500;
+    background-color: #ff8c00;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -55,12 +55,12 @@ nav {
 }
 
 .cta:hover {
-    background-color: #c08700;
+    background-color: #ff4500;
 }
 
 /* Hero Section */
 .hero {
-    background-image: url('path-to-your-background-image.jpg');
+    background-image: url('your-background-image.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -79,7 +79,7 @@ nav {
 }
 
 .hero-content .cta {
-    background-color: #f0a500;
+    background-color: #ff8c00;
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
@@ -88,7 +88,7 @@ nav {
 }
 
 .hero-content .cta:hover {
-    background-color: #c08700;
+    background-color: #ff4500;
 }
 
 /* Pricing Section */
@@ -140,7 +140,7 @@ nav {
 
 .pricing-item .cta {
     display: block;
-    background-color: #f0a500;
+    background-color: #ff8c00;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -149,13 +149,13 @@ nav {
 }
 
 .pricing-item .cta:hover {
-    background-color: #c08700;
+    background-color: #ff4500;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #101010;
+    color: #999;
     padding: 20px 50px;
     text-align: center;
 }
@@ -170,11 +170,11 @@ footer {
 }
 
 .social-links a {
-    color: #f0a500;
+    color: #ff8c00;
     text-decoration: none;
     margin: 0 10px;
 }
 
 .social-links a:hover {
-    color: #c08700;
+    color: #ff4500;
 }
